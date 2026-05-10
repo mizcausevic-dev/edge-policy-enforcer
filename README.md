@@ -158,15 +158,19 @@ Bot handling distinguishes:
 
 ### Hero Capture
 
-![Hero](screenshots/01-hero.svg)
+![Hero](screenshots/01-hero.png)
 
 ### Policy Surfaces
 
-![Policy surfaces](screenshots/02-policy-lanes.svg)
+![Policy surfaces](screenshots/02-policy-lanes.png)
+
+### Industry Application Layer
+
+![Industry application layer](screenshots/03-industry-application.png)
 
 ### Validation Proof
 
-![Validation proof](screenshots/03-proof.svg)
+![Validation proof](screenshots/04-proof.png)
 
 ---
 

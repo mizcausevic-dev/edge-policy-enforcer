@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Edge Policy Enforcer Industry Layer</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #09111d;
+      --panel: #131f32;
+      --tile: #1b2940;
+      --border: #2a4160;
+      --text: #f2ede3;
+      --muted: #b7c4d3;
+      --accent: #7fd2ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1600px;
+      height: 900px;
+      overflow: hidden;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(180deg, #09111d, #050b14 72%);
+      color: var(--text);
+    }
+    .frame {
+      width: 1520px;
+      height: 820px;
+      margin: 40px;
+      border-radius: 34px;
+      background: rgba(17, 28, 48, 0.97);
+      border: 1px solid #223a57;
+      padding: 42px 44px;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 18px;
+      letter-spacing: .32em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 24px 0 28px;
+      font: 700 54px/1.05 Georgia, "Times New Roman", serif;
+      max-width: 1180px;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 420px 1fr;
+      gap: 22px;
+      height: 600px;
+    }
+    .list, .detail {
+      background: #141f32;
+      border: 1px solid #28405e;
+      border-radius: 26px;
+      padding: 22px;
+    }
+    .list h2, .detail h2 {
+      margin: 0 0 18px;
+      font-size: 16px;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: #a7c4e8;
+    }
+    .industry {
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      border: 1px solid #2a4160;
+      border-radius: 18px;
+      background: #1a2940;
+    }
+    .industry strong {
+      display: block;
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .industry span {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.35;
+    }
+    .detail-title {
+      font: 700 46px/1.05 Georgia, "Times New Roman", serif;
+      margin: 10px 0 16px;
+    }
+    .benefits {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .benefit {
+      background: #1a2940;
+      border: 1px solid #2a4160;
+      border-radius: 18px;
+      padding: 18px;
+      min-height: 118px;
+    }
+    .benefit strong {
+      display: block;
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .benefit p, .detail-copy {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="eyebrow">Industry Application</div>
+    <h1>The same edge control plane becomes more valuable when its policy logic adapts by sector.</h1>
+    <div class="layout">
+      <section class="list">
+        <h2>Verticals</h2>
+        <div class="industry">
+          <strong>Financial Services</strong>
+          <span>Fraud pressure, geo compliance, restricted endpoints</span>
+        </div>
+        <div class="industry">
+          <strong>Healthcare</strong>
+          <span>Regional data lanes, device trust, audit-heavy routing</span>
+        </div>
+        <div class="industry">
+          <strong>Retail</strong>
+          <span>Bot mitigation, flash-sale protection, route prioritization</span>
+        </div>
+        <div class="industry">
+          <strong>Manufacturing + IoT</strong>
+          <span>Protocol checks, sensor health, spillover routing</span>
+        </div>
+      </section>
+      <section class="detail">
+        <h2>Selected Surface</h2>
+        <div class="detail-title">Retail and e-commerce</div>
+        <p class="detail-copy">The edge layer screens bot posture during product drops, preserves human conversion paths, and keeps inventory or pricing surfaces from collapsing under burst pressure.</p>
+        <div class="benefits">
+          <div class="benefit">
+            <strong>Anti-bot gating</strong>
+            <p>Challenge automation before origin compute is wasted on fake demand.</p>
+          </div>
+          <div class="benefit">
+            <strong>Localized pricing</strong>
+            <p>Use regional redirect lanes without losing attribution or trust signals.</p>
+          </div>
+          <div class="benefit">
+            <strong>Launch protection</strong>
+            <p>Keep preview surfaces and release-locked routes outside public reach.</p>
+          </div>
+          <div class="benefit">
+            <strong>Priority routing</strong>
+            <p>Protect high-value customer traffic when burst pressure hits the platform.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

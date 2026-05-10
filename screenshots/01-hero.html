@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Edge Policy Enforcer Hero</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #09111d;
+      --panel: #131f32;
+      --panel-2: #18273d;
+      --border: #26415f;
+      --text: #f2ede3;
+      --muted: #9bb0c5;
+      --accent: #7fd2ff;
+      --pink: #f0b7d9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1600px;
+      height: 900px;
+      overflow: hidden;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, #13233a, transparent 38%),
+        linear-gradient(180deg, #09111d, #050b14 72%);
+      color: var(--text);
+    }
+    .frame {
+      width: 1520px;
+      height: 820px;
+      margin: 40px;
+      border-radius: 34px;
+      background: rgba(17, 28, 48, 0.96);
+      border: 1px solid #223a57;
+      padding: 46px 48px;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 18px;
+      letter-spacing: .34em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 26px 0 18px;
+      font: 700 68px/1.03 Georgia, "Times New Roman", serif;
+      max-width: 1260px;
+    }
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 26px;
+      line-height: 1.45;
+      max-width: 1220px;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      margin-top: 34px;
+    }
+    .metric {
+      height: 168px;
+      padding: 24px 26px;
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+    }
+    .metric-label {
+      color: #a7c4e8;
+      font-size: 15px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    .metric-value {
+      margin-top: 26px;
+      font: 700 70px/1 Georgia, "Times New Roman", serif;
+    }
+    .metric-copy {
+      margin-top: 10px;
+      color: #d7e3ee;
+      font-size: 18px;
+      line-height: 1.25;
+    }
+    .decision {
+      margin-top: 20px;
+      height: 206px;
+      padding: 28px 32px;
+      background: #162538;
+      border: 1px solid #32506f;
+      border-radius: 28px;
+    }
+    .decision-label {
+      color: var(--pink);
+      font-size: 15px;
+      letter-spacing: .30em;
+      text-transform: uppercase;
+    }
+    .decision h2 {
+      margin: 16px 0 10px;
+      font: 700 46px/1.08 Georgia, "Times New Roman", serif;
+      max-width: 1320px;
+    }
+    .decision p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 22px;
+      line-height: 1.35;
+      max-width: 1260px;
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="eyebrow">Edge Policy Enforcer</div>
+    <h1>Govern request posture before the origin pays the price.</h1>
+    <p class="lead">A control layer for preview lockout, bot handling, geo-lane routing, redirect governance, and burst-pressure decisions across public traffic surfaces.</p>
+
+    <section class="metrics">
+      <div class="metric">
+        <div class="metric-label">Live Origins</div>
+        <div class="metric-value">3</div>
+        <div class="metric-copy">Growth, docs, campaign</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Policies</div>
+        <div class="metric-value">5</div>
+        <div class="metric-copy">Bot, geo, preview, redirect</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Challenge Lanes</div>
+        <div class="metric-value">1</div>
+        <div class="metric-copy">Burst traffic containment</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Redirect Rules</div>
+        <div class="metric-value">2</div>
+        <div class="metric-copy">Localized + legacy control</div>
+      </div>
+    </section>
+
+    <section class="decision">
+      <div class="decision-label">Current Decision Lane</div>
+      <h2>Redirect UK pricing traffic into the governed local surface and preserve attribution headers.</h2>
+      <p>This service treats request handling as an operating decision, not just a middleware side effect.</p>
+    </section>
+  </div>
+</body>
+</html>

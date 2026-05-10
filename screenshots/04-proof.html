@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Edge Policy Enforcer Proof</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #09111d;
+      --panel: #131f32;
+      --terminal: #07111d;
+      --tile: #1a2940;
+      --border: #29415f;
+      --text: #f2ede3;
+      --muted: #b7c4d3;
+      --accent: #7fd2ff;
+      --mint: #d9ff9c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1600px;
+      height: 900px;
+      overflow: hidden;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(180deg, #09111d, #050b14 72%);
+      color: var(--text);
+    }
+    .frame {
+      width: 1520px;
+      height: 820px;
+      margin: 40px;
+      border-radius: 34px;
+      background: rgba(17, 28, 48, 0.97);
+      border: 1px solid #223a57;
+      padding: 42px 44px;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 18px;
+      letter-spacing: .32em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 24px 0 34px;
+      font: 700 60px/1.05 Georgia, "Times New Roman", serif;
+      max-width: 1260px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.25fr .85fr;
+      gap: 22px;
+      height: 560px;
+    }
+    .panel {
+      background: #141f32;
+      border: 1px solid #28405e;
+      border-radius: 26px;
+      padding: 24px;
+    }
+    .terminal {
+      background: var(--terminal);
+      border: 1px solid #223a57;
+      border-radius: 22px;
+      padding: 26px;
+      color: var(--mint);
+      font: 24px/1.7 Consolas, monospace;
+      white-space: pre-wrap;
+    }
+    .panel h2 {
+      margin: 0 0 18px;
+      color: #a7c4e8;
+      font-size: 16px;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+    }
+    .proof-card {
+      background: var(--tile);
+      border: 1px solid #2a4160;
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 14px;
+    }
+    .proof-card strong {
+      display: block;
+      color: #fff;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .proof-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 21px;
+      line-height: 1.38;
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="eyebrow">Validation Proof</div>
+    <h1>Request evaluation, rate review, and bot posture all return clean operator actions.</h1>
+    <div class="grid">
+      <section class="panel">
+        <div class="terminal">&gt; POST /api/evaluate/request
+{
+  "originId": "growth-site",
+  "path": "/pricing",
+  "geo": "GB",
+  "expectedExperienceGeo": "US"
+}
+
+status: redirect
+score: 54
+redirectTarget: /uk/pricing
+nextAction: preserve attribution headers</div>
+      </section>
+      <aside class="panel">
+        <h2>Proof Points</h2>
+        <div class="proof-card">
+          <strong>Three evaluation modes</strong>
+          <p>Request posture, rate pressure, and bot handling are modeled as separate decision surfaces.</p>
+        </div>
+        <div class="proof-card">
+          <strong>Operator-shaped payloads</strong>
+          <p>Responses include matched policies, issues, passed checks, and a specific next action.</p>
+        </div>
+        <div class="proof-card">
+          <strong>Infrastructure credibility</strong>
+          <p>The service is intentionally framed as request-governance infrastructure, not just middleware decoration.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
