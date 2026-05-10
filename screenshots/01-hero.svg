@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#0A1220"/>
+  <rect x="44" y="44" width="1512" height="812" rx="34" fill="#111C30" stroke="#233449" stroke-width="2"/>
+  <text x="96" y="116" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="5">EDGE POLICY ENFORCER</text>
+  <text x="96" y="198" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">Govern request posture before the origin pays the price.</text>
+  <text x="96" y="262" fill="#9DB3C8" font-family="Segoe UI, Arial, sans-serif" font-size="28">Preview surfaces, geo lanes, bot pressure, redirect rules, and burst traffic decisions in one edge control layer.</text>
+
+  <rect x="96" y="332" width="320" height="180" rx="24" fill="#18253B" stroke="#2A3C56"/>
+  <text x="128" y="378" fill="#9DC8F2" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="3">LIVE ORIGINS</text>
+  <text x="128" y="456" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">3</text>
+  <text x="128" y="498" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Growth, docs, and campaign surfaces</text>
+
+  <rect x="448" y="332" width="320" height="180" rx="24" fill="#18253B" stroke="#2A3C56"/>
+  <text x="480" y="378" fill="#9DC8F2" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="3">ACTIVE POLICIES</text>
+  <text x="480" y="456" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">5</text>
+  <text x="480" y="498" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Bot, geo, preview, redirect, baseline</text>
+
+  <rect x="800" y="332" width="320" height="180" rx="24" fill="#18253B" stroke="#2A3C56"/>
+  <text x="832" y="378" fill="#9DC8F2" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="3">CHALLENGE LANES</text>
+  <text x="832" y="456" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">1</text>
+  <text x="832" y="498" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Burst traffic containment path</text>
+
+  <rect x="1152" y="332" width="320" height="180" rx="24" fill="#18253B" stroke="#2A3C56"/>
+  <text x="1184" y="378" fill="#9DC8F2" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="3">REDIRECT RULES</text>
+  <text x="1184" y="456" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">2</text>
+  <text x="1184" y="498" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Localized and legacy route control</text>
+
+  <rect x="96" y="564" width="1376" height="214" rx="28" fill="#162334" stroke="#304A66"/>
+  <text x="132" y="612" fill="#FBCFE8" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="5">CURRENT DECISION LANE</text>
+  <text x="132" y="684" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700">Redirect UK traffic into the governed pricing surface and preserve attribution metadata.</text>
+  <text x="132" y="742" fill="#9DB3C8" font-family="Segoe UI, Arial, sans-serif" font-size="26">This service treats request handling as an operating decision, not just a middleware side effect.</text>
+</svg>

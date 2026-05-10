@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#0A1220"/>
+  <rect x="44" y="44" width="1512" height="812" rx="34" fill="#111C30" stroke="#233449" stroke-width="2"/>
+  <text x="96" y="116" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="5">VALIDATION PROOF</text>
+  <text x="96" y="188" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700">Request evaluation, rate review, and bot posture all return clean operator actions.</text>
+
+  <rect x="96" y="274" width="820" height="470" rx="28" fill="#07111D" stroke="#22344B"/>
+  <text x="132" y="340" fill="#D9FF9C" font-family="Consolas, monospace" font-size="24">&gt; POST /api/evaluate/request</text>
+  <text x="132" y="392" fill="#D9FF9C" font-family="Consolas, monospace" font-size="24">{</text>
+  <text x="164" y="432" fill="#D9FF9C" font-family="Consolas, monospace" font-size="24">"status": "redirect",</text>
+  <text x="164" y="472" fill="#D9FF9C" font-family="Consolas, monospace" font-size="24">"score": 54,</text>
+  <text x="164" y="512" fill="#D9FF9C" font-family="Consolas, monospace" font-size="24">"redirectTarget": "/uk/pricing",</text>
+  <text x="164" y="552" fill="#D9FF9C" font-family="Consolas, monospace" font-size="24">"recommendedNextAction":</text>
+  <text x="196" y="592" fill="#D9FF9C" font-family="Consolas, monospace" font-size="24">"Redirect into the governed regional lane"</text>
+  <text x="132" y="640" fill="#D9FF9C" font-family="Consolas, monospace" font-size="24">}</text>
+  <text x="132" y="706" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="22">Decision output is structured for operators, not just logs.</text>
+
+  <rect x="956" y="274" width="510" height="470" rx="28" fill="#162334" stroke="#304A66"/>
+  <text x="992" y="326" fill="#94F4B3" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="4">PROOF POINTS</text>
+  <text x="992" y="394" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700">Three different evaluation modes</text>
+  <text x="992" y="452" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">• request posture</text>
+  <text x="992" y="490" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">• rate pressure</text>
+  <text x="992" y="528" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">• bot handling</text>
+  <text x="992" y="610" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700">Operationally useful responses</text>
+  <text x="992" y="668" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Issues, passed checks, policy matches, and next actions come back in one decision payload.</text>
+</svg>

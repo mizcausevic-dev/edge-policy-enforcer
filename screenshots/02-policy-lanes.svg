@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#0A1220"/>
+  <rect x="44" y="44" width="1512" height="812" rx="34" fill="#111C30" stroke="#233449" stroke-width="2"/>
+  <text x="96" y="116" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="5">POLICY SURFACES</text>
+  <text x="96" y="190" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="700">The edge control layer is split into clean decision lanes.</text>
+
+  <rect x="96" y="272" width="430" height="230" rx="26" fill="#18253B" stroke="#2A3C56"/>
+  <text x="132" y="320" fill="#9DC8F2" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="4">BOT ENFORCEMENT</text>
+  <text x="132" y="388" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700">Block hostile automation</text>
+  <text x="132" y="436" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Bot score above 90 plus multiple suspicious signals triggers a hard edge deny.</text>
+
+  <rect x="566" y="272" width="430" height="230" rx="26" fill="#18253B" stroke="#2A3C56"/>
+  <text x="602" y="320" fill="#9DC8F2" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="4">RATE PRESSURE</text>
+  <text x="602" y="388" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700">Challenge burst traffic</text>
+  <text x="602" y="436" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Requests per minute above the lane threshold are challenged before the origin is stressed.</text>
+
+  <rect x="1036" y="272" width="430" height="230" rx="26" fill="#18253B" stroke="#2A3C56"/>
+  <text x="1072" y="320" fill="#9DC8F2" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="4">GEO ROUTING</text>
+  <text x="1072" y="388" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700">Redirect into local lanes</text>
+  <text x="1072" y="436" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Mismatched experience lanes are corrected with governed redirect targets.</text>
+
+  <rect x="96" y="540" width="430" height="230" rx="26" fill="#18253B" stroke="#2A3C56"/>
+  <text x="132" y="588" fill="#9DC8F2" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="4">PREVIEW LOCK</text>
+  <text x="132" y="656" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700">Protect unreleased surfaces</text>
+  <text x="132" y="704" fill="#D8E3EE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Preview and release-locked paths are denied before public traffic can leak through.</text>
+
+  <rect x="566" y="540" width="900" height="230" rx="26" fill="#162334" stroke="#304A66"/>
+  <text x="602" y="588" fill="#FBCFE8" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="5">WHY IT MATTERS</text>
+  <text x="602" y="652" fill="#F3EEE4" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700">The same service can route, protect, absorb, and block without turning edge behavior into operational guesswork.</text>
+</svg>
